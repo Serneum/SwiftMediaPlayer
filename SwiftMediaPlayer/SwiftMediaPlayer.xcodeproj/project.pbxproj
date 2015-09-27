@@ -11,6 +11,7 @@
 		3B1FA2DC1BB6267700F3A596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1FA2DB1BB6267700F3A596 /* Assets.xcassets */; };
 		3B1FA2DF1BB6267700F3A596 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1FA2DD1BB6267700F3A596 /* MainMenu.xib */; };
 		3B1FA2E71BB6268E00F3A596 /* MediaApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FA2E61BB6268E00F3A596 /* MediaApplication.swift */; settings = {ASSET_TAGS = (); }; };
+		3BE1B4B01BB783A8000BA403 /* ApplicationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1B4AF1BB783A8000BA403 /* ApplicationHandler.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3B1FA2DE1BB6267700F3A596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3B1FA2E01BB6267700F3A596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1FA2E61BB6268E00F3A596 /* MediaApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaApplication.swift; sourceTree = "<group>"; };
+		3BE1B4AF1BB783A8000BA403 /* ApplicationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3B1FA2DD1BB6267700F3A596 /* MainMenu.xib */,
 				3B1FA2E01BB6267700F3A596 /* Info.plist */,
 				3B1FA2E61BB6268E00F3A596 /* MediaApplication.swift */,
+				3BE1B4AF1BB783A8000BA403 /* ApplicationHandler.swift */,
 			);
 			path = SwiftMediaPlayer;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE1B4B01BB783A8000BA403 /* ApplicationHandler.swift in Sources */,
 				3B1FA2DA1BB6267700F3A596 /* AppDelegate.swift in Sources */,
 				3B1FA2E71BB6268E00F3A596 /* MediaApplication.swift in Sources */,
 			);
@@ -272,6 +276,7 @@
 				3B1FA2E51BB6267700F3A596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

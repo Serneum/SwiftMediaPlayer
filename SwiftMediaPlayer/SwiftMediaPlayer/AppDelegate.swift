@@ -13,6 +13,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
 
+    @IBOutlet weak var rewind: NSButton!
+    @IBOutlet weak var playPause: NSButton!
+    @IBOutlet weak var fastForward: NSButton!
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
